@@ -1,5 +1,10 @@
 server:
   port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
 spring:
   application:
     #应用的名称，可选
@@ -19,3 +24,5 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: ASSIGN_ID
+reggie:
+  uploadPath: D:/hust/imgs/

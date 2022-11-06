@@ -4,6 +4,10 @@ import lombok.Data;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 统一返会处理
+ * @param <T>
+ */
 @Data
 public class R<T> {
 
